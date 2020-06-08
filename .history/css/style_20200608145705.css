@@ -212,7 +212,7 @@ nav ul,nav ol {
 /* ==========================================================================Embedded content========================================================================== */
 img {
 	border:0;
-	-ms-interpolation-mode:bicubic;
+	
 }
 svg:not(:root) {
 	overflow: hidden;
