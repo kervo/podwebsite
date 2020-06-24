@@ -1,5 +1,5 @@
 
-# POD Digital prin solutions
+# POD Digital Print Solutions
 This website is based on the following web template:
 
 ### JohnDoe
