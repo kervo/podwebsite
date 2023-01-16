@@ -329,57 +329,6 @@ table {
 	padding-top: 138px;
 }
 /* ==========================================================================Navigation========================================================================== */
-.menu-wrap a {
-	color:#555d7c;
-	outline:none!important;
-}
-.menu-wrap a:hover,.menu-wrap a:focus {
-	color: #7F2E76;
-}
-.content-wrap {
-	overflow-y:scroll;
-	-webkit-overflow-scrolling:touch;
-	-webkit-transition:-webkit-transform 0.4s;
-	transition:transform 0.4s;
-	-webkit-transition-timing-function:cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function:cubic-bezier(0.7,0,0.3,1);
-}
-.content {
-	position:relative;
-	background:#b4bad2;
-	padding-bottom: 12em;
-}
-/* Common styles for menu button and menu-wrap */
-.menu-button,.menu-wrap {
-	position:fixed;
-	width:2.5em;
-	height:2.25em;
-	font-size:1.5em;
-	-webkit-transform:translate3d(1.5em,1.5em,0);
-	transform: translate3d(1.5em,1.5em,0);
-}
-/* Menu Button */
-.menu-button {
-	z-index:1000;
-	margin:0;
-	padding:0;
-	border:none;
-	text-indent:2.5em;
-	color:transparent;
-	background:transparent;
-}
-.menu-button::before {
-	position:absolute;
-	top:0.5em;
-	right:0.5em;
-	bottom:0.5em;
-	left:0.5em;
-	background: linear-gradient(#7F2E76 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#7F2E76 40%,#7F2E76 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#7F2E76 80%);
-	content:'';
-}
-.menu-button:hover {
-	opacity: 0.6;
-}
 /* Menu */
 ul { list-style: none; }
 a { text-decoration: none; color: black;}
