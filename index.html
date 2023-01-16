@@ -39,19 +39,51 @@
 		    <!-- creative menu -->
             <div class="container-fluid">
               <div class="row">
-                <div class="menu-wrap">
-				<nav class="menu">
-				    <!-- Menu Links -->
-					<div class="icon-list">
-						<a href="index.html#home"><i class="fa fa-home"></i><span>Home</span></a>
-						<a href="index.html#services"><i class="fab fa-firstdraft"></i><span>Services</span></a>
-						<a href="index.html#portfolio"><i class="fas fa-print"></i><span>Portfolio</span></a>
-            <a href="index.html#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
-					</div>
-				</nav>
-			    </div>
-			    <button class="menu-button" id="open-button"></button><!-- menu button -->
-              </div><!--/row-->
+                <div id="menu-container">
+                  <div id="menu-wrapper">
+                     <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                     <!-- hamburger-menu -->
+                  </div>
+                  <!-- menu-wrapper -->
+                  <ul class="menu-list accordion">
+                     <li id="nav1" class="toggle accordion-toggle"> 
+                        <span class="icon-plus"></span>
+                        <a class="menu-link" href="#">Menu1</a>
+                     </li>
+                     <!-- accordion-toggle -->
+                     <ul class="menu-submenu accordion-content">
+                        <li><a class="head" href="#">Submenu1</a></li>
+                        <li><a class="head" href="#">Submenu2</a></li>
+                        <li><a class="head" href="#">Submenu3</a></li>
+                     </ul>
+                     <!-- menu-submenu accordon-content-->
+                     <li id="nav2" class="toggle accordion-toggle"> 
+                        <span class="icon-plus"></span>
+                        <a class="menu-link" href="#">Menu2</a>
+                     </li>
+                     <!-- accordion-toggle -->
+                     <ul class="menu-submenu accordion-content">
+                        <li><a class="head" href="#">Submenu1</a></li>
+                        <li><a class="head" href="#">Submenu2</a></li>
+                     </ul>
+                     <!-- menu-submenu accordon-content-->
+                          <li id="nav3" class="toggle accordion-toggle"> 
+                        <span class="icon-plus"></span>
+                        <a class="menu-link" href="#">Menu3</a>
+                     </li>
+                     <!-- accordion-toggle -->
+                     <ul class="menu-submenu accordion-content">
+                        <li><a class="head" href="#">Submenu1</a></li>
+                        <li><a class="head" href="#">Submenu2</a></li>
+                        <li><a class="head" href="#">Submenu3</a></li>
+                        <li><a class="head" href="#">Submenu4</a></li>
+                     </ul>
+                     <!-- menu-submenu accordon-content-->
+                  </ul>
+                  <!-- menu-list accordion-->
+               </div>
+               <!-- menu-container -->
+               </div><!--/row-->
             </div><!--/container-->
 		  <!-- Header Image -->
           <section class="hero" id="hero">
@@ -67,11 +99,6 @@
               <div class="col-md-4 col-md-offset-1 inner">
               <svg version="1.1" id="Layer_2_copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 1247.24 1077.17" style="enable-background:new 0 0 1247.24 1077.17;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E30528;}
-	.st1{fill:#652D87;}
-	.st2{fill:#BBD034;}
-</style>
 <g>
 	<path class="st0" d="M562.81,411.1c-33.48,14.41-60.1,41.8-73.5,75.79c4.74,12.95,8.99,29.13,10.03,47.21
 		c1.17,20.37-3.7,39.51-9.4,54.4c13.75,33.68,40.54,60.71,74.08,74.76c15.68-26.39,31.5-65.37,34.17-117.59
